@@ -1,0 +1,17 @@
+platform :ios, '8.0'
+
+target 'DKParseAuthDemo' do
+  pod 'SVProgressHUD'
+  pod 'DKParseAuth', :path => '../'
+end
+
+plugin 'cocoapods-keys', {
+    :project => 'dk-parse-auth-demo',
+    :keys => [
+    'TwitterConsumerKey',
+    'TwitterConsumerSecret',
+    'ParseClientId',
+    'ParseClientKey'
+    ]
+}
+

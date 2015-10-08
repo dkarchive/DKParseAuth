@@ -19,17 +19,25 @@ Add the files in the DKParseAuth folder to your project.
 
 ## Usage
 
-```
-TODO usage
+``` objc
+// Add Parse authentication to your apps with just a few lines
+
+[[DKParseAuth sharedInstance] configureWithParseClientId:kParseClientId parseClientKey:kParseClientKey];
+
+UIViewController *controller = [[DKParseAuth sharedInstance] authViewControllerWithPasswordLength:8 hud:nil successBlock:^(id user, BOOL signup) {
+  NSLog(@"success 😎 %@ with user %@", signup?@"signup":@"login", user);        
+}];
+    
+[self presentViewController:controller animated:YES completion:nil];
 ```
 
 # Demo
 
-GitHubOAuthController includes a demo project.
+DKParseAuth includes a demo project.
 
 # Thanks
 
-This project uses `Parse` and `ParseTwitterUtils`.
+This project uses `Parse`, `ParseTwitterUtils` and [more](TODO).
 
 # Contact
 
@@ -38,4 +46,4 @@ This project uses `Parse` and `ParseTwitterUtils`.
 
 # License
 
-GitHubOAuthController is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
+DKParseAuth is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
