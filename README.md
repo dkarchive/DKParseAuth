@@ -2,8 +2,6 @@
 
 Simple Parse Authentication
 
-TODO: demo.gif or demo.png
-
 # Installation
 
 ## [CocoaPods](https://cocoapods.org/)
