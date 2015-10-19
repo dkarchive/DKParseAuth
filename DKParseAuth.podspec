@@ -3,7 +3,8 @@ Pod::Spec.new do |s|
 
   s.name         = "DKParseAuth"
   s.version      = "0.1"
-  s.summary      = "Simple Parse Auth"
+  s.summary      = "Simple Parse Authentication"
+  s.description  = "Add Parse auth to your iOS app with just a few lines :-)"
 
   s.homepage     = "https://github.com/dkhamsing/DKParseAuth"
 
