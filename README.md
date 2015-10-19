@@ -35,7 +35,7 @@ DKParseAuth includes a demo project.
 
 # Thanks
 
-This project uses `Parse`, `ParseTwitterUtils` and [more](TODO).
+This project uses `Parse`, `ParseTwitterUtils` and [more](DKParseAuth.podspec).
 
 # Contact
 
