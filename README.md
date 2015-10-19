@@ -18,7 +18,7 @@ Add the files in the DKParseAuth folder to your project.
 ## Usage
 
 ``` objc
-// Add Parse authentication to your apps with just a few lines
+// Add Parse authentication to your app with just a few lines
 
 [[DKParseAuth sharedInstance] configureWithParseClientId:kParseClientId parseClientKey:kParseClientKey];
 
