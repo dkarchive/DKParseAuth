@@ -31,7 +31,8 @@ UIViewController *controller = [[DKParseAuth sharedInstance] authViewControllerW
 
 # Demo
 
-DKParseAuth includes a demo project.
+- DKParseAuth includes a demo project.
+- DKParseAuth is used in the app [how-much](https://github.com/dkhamsing/how-much).
 
 # Thanks
 
